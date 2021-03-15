@@ -1,0 +1,2 @@
+#use {message} for the message placeholder
+prefix: '&6[&dAnarchySay&6] &f{message}'
