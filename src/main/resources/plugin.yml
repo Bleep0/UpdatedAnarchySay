@@ -1,0 +1,5 @@
+name: Anarchysay
+version: ${project.version}
+main: dev.bleepo.anarchysay.Anarchysay
+api-version: 1.16
+description: a[;ugin to use /say customly
