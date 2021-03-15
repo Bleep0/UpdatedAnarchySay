@@ -11,6 +11,9 @@ public final class Anarchysay extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
+        getConfig().options().copyDefaults(true);
+        saveConfig();
         getLogger().info(ChatColor.DARK_GREEN + "AnarchySay by Bleepo has been loaded and enabled!");
     }
 
